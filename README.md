@@ -10,7 +10,9 @@ source env/bin/activate
 env/bin/pip install --upgrade -r REQUIREMENTS.txt   
 
 cd project
+
 ../env/bin/python manage.py syncdb
+
 ../env/bin/python manage.py migrate
 
 Usage:
