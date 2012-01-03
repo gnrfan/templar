@@ -1,0 +1,10 @@
+PIL
+simplejson
+feedparser
+python-dateutil
+django
+django_extensions
+django-admin-tools
+django-countries
+south
+MySQL-python

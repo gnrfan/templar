@@ -1,0 +1,27 @@
+# Generic Django .gitignore
+# based on http://sujee.net/tech/articles/gitignore/
+
+#python specific
+*.pyc
+
+# Mac OS X Finder and whatnot
+.DS_Store
+
+# virtualenv
+env/
+
+media/*
+
+# Other source repository archive directories (protects when importing)
+.hg
+.svn
+CVS
+
+# automatic backup and temporary files files
+*.out
+*.tmp
+.*.swp
+.*.swo
+*~
+*.lock
+pylint
