@@ -4,7 +4,6 @@ from django.conf.urls.defaults import patterns, include, url
 from django.conf import settings
 
 urlpatterns = patterns('',
-    (r'', include('website.urls')),
 )
 
 if settings.DEBUG:
@@ -23,3 +22,8 @@ if settings.DEBUG:
             }
         ),
     )
+
+urlpatterns += patterns('',
+    (r'', include('website.urls')),
+)
+
