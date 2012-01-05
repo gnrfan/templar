@@ -17,6 +17,8 @@ def generic(request):
 
     # Determine template name
     template_path = request.path[1:]
+    if template_path == '':
+        template_path = 'index.html'
     if template_path.endswith('/'):
         template_path += 'index.html'
     elif not template_path.endswith('.html'):
