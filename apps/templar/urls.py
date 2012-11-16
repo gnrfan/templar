@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from django.conf.urls.defaults import patterns, include, url
-
-from website import views
+from templar import views
 
 urlpatterns = patterns('',
 

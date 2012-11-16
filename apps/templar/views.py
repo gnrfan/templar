@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import os
-import simplejson
 from django.views.generic.simple import direct_to_template
+from django.utils import simplejson
 from django.conf import settings
 from django.http import Http404
 

@@ -24,6 +24,5 @@ if settings.DEBUG:
     )
 
 urlpatterns += patterns('',
-    (r'', include('website.urls')),
+    (r'', include('templar.urls')),
 )
-
